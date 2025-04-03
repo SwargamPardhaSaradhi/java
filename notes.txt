@@ -14,10 +14,10 @@ class IDinArray{
 
     //static declaration of array
     int [] arr = new int[5];
-    arr[0] =1; etc......
+    arr[0] =1; //etc......
 
     //dynamic array declaraton
-    int [] arr1 = {1,2,3,4,5,6,7} // as we can declare how many numbers we want it is known as dynamic array declarartion.
+    int [] arr1 = {1,2,3,4,5,6,7}; // as we can declare how many numbers we want it is known as dynamic array declarartion.
 
     //itterate over array using index
     int len1 = arr.length;
