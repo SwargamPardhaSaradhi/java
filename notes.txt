@@ -76,4 +76,15 @@ class IIIDinArray{
 
 
 // itterating using index 
- 
+ int len1 = arr.length;
+ int len2 = arr[0].length;
+ int len 3 = arr[0][0].length;
+ for(int i=0;i<len1;i++){
+  for(int j=0;j<len2;j++){
+   for(int k=0;k<len3;k++){
+    System.out.print(arr[i][j][k]+" ");
+   }
+  System.out.println();
+  }
+ System.out.println();
+ }
