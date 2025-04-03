@@ -88,3 +88,17 @@ class IIIDinArray{
   }
  System.out.println();
  }
+
+// itterating through the foreach loop
+for(int [][] i : arr){
+  for(int [] j : i){
+   for(int k : j){
+    System.out.print(k+" " );
+   }
+  System.out.println();
+ }
+System.out.println();
+}
+}}
+
+
