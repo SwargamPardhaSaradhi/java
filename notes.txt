@@ -102,3 +102,28 @@ System.out.println();
 }}
 
 
+==========================================================
+Java programming Structures:
+=============================
+0) comments 
+1)Package declarartion
+2)import statement
+3)class declarartion
+4) variable declarartion
+5) constructures
+6) static blocks
+7) non - static blocks
+
+0) comments:-
+==============
+single by : - //
+multi by :- /**/
+
+1)Package declarartion:
+========================
+Access Specifiers : - private,default,protected and public 
+Access Modefiers :- Abstract, static, final, transient, violate, native, syncronized.
+
+-> the purpose of package declarartion is to Access clAass and its members (vars, construtors, methods, access outside the class and package).
+
+ 
