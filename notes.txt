@@ -169,5 +169,27 @@ public String getDeptName(){return this.DeptName;}
 public String setLoc(String loc){this.loc = loc;}
 public String getLoc(){return thisloc};
 
+public void setEmpList(List<Emp> empList){this.empList = empList;}
+public List<Emp> getEmpList() {return this.empList;}
 
+// override 3 methods 
+public String toString(){
+return deptNo+" "+deptName+" "+loc;
+}
+
+public int hashCode(){
+return toString().hashCode();
+}
+
+public boolean equals(Object obj){
+boolean flag = false;
+if(obj insatnceOf Dept){
+Dept d = (Dept) obj;
+if(this.deptNo == d.getDeptNo() && this.deptName == d.getDeptName() && this.loc == d.getloc() && this.empList == d.getEmpList()){
+flag = true;
+}
+}
+return falg;
+}
+}
 //Emp.java
