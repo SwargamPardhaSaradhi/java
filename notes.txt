@@ -160,4 +160,14 @@ this.loc = loc;
 this.empList = empList;
 }
 
+// public setter and getter method
+
+public void setDeptNo(int no){this.deptNo = no;}
+public int getDeptNo(){return this.deptNo;}
+public void setDeptName(String name){this.DeptName = name;}
+public String getDeptName(){return this.DeptName;}
+public String setLoc(String loc){this.loc = loc;}
+public String getLoc(){return thisloc};
+
+
 //Emp.java
