@@ -126,4 +126,38 @@ Access Modefiers :- Abstract, static, final, transient, violate, native, syncron
 
 -> the purpose of package declarartion is to Access clAass and its members (vars, construtors, methods, access outside the class and package).
 
- 
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ encapsulation 
+=============
+It encaplusaltes class properties/hides class variables.
+
+1. Declare Variables private
+2. write one public no parameter constructor 
+3. write one public parameterized constructor
+4. write one pair of public setter and getter methods for each private variable 
+5. Override equals(), hashcode(), and toString() methods  
+
+// Dept.java
+public class Dept{
+// private variables 
+private int deptNo;
+private String deptName;
+private String loc;
+private List<Emp> empList;
+// public no parametet constructor
+public Dept(){}
+
+// public parameter constructor 
+public Dept(int deptNo, String deptName , String loc, List<Emp> empList){
+this.deptNo = deptNo;
+this.deptName = deptName;
+this.loc = loc;
+this.empList = empList;
+}
+
+//Emp.java
